@@ -4,8 +4,6 @@ public class Employee {
 
 	String firstName;
 	String lastName;
-	String emailId;
-	String password;
 
 	public Employee(String firstName, String lastName) {
 		super();
@@ -28,15 +26,6 @@ public class Employee {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-
-	public String getEmailId() {
-		return emailId;
-	}
-
-	public void setEmailId(String emailId) {
-		this.emailId = emailId;
-	}
-
 
 	public Employee() {
 		// TODO Auto-generated constructor stub

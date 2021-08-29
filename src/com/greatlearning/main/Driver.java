@@ -39,19 +39,19 @@ public class Driver {
 
 				}break;
 				case 1: {
-					department="Technical";
+					department="technical";
 					flag2=false;
 				}break;
 				case 2: {
-					department="Admin";
+					department="admin";
 					flag2=false;
 				}break;
 				case 3: {
-					department="HumanResource";
+					department="humanresource";
 					flag2=false;
 				}break;
 				case 4: {
-					department="Legal";
+					department="legal";
 					flag2=false;
 				}break;
 				default:
@@ -64,9 +64,9 @@ public class Driver {
 
 			while(flag) {
 
+				sc.nextLine();
 				System.out.println("Enter your First name");
 				firstName = sc.nextLine();
-				sc.nextLine();
 				System.out.println("Enter your Last name");
 				lastName = sc.nextLine();
 
